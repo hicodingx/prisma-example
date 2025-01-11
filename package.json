@@ -7,7 +7,8 @@
   "scripts": {
     "build": "prisma generate",
     "dev": "cross-env PORT=3000 node src/index.js",
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "postinstall": "prisma generate"
   },
   "author": "@jess-render",
   "license": "ISC",
